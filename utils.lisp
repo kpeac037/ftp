@@ -1,3 +1,7 @@
+;;;; utils.lisp
+;;;; Needful functions, and things shared between client and server code
+
+(in-package :ftp)
 
 (defun buffer-byte-streams (read-stream write-stream
                             &optional (buffer-size 10))
