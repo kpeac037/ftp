@@ -1,0 +1,5 @@
+(asdf:load-system :ftp)
+(in-package :ftp)
+(load "utils.lisp")
+(load "client.lisp")
+(client 2323)

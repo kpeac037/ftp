@@ -1,7 +1,9 @@
 ;;;; package.lisp
 
 (defpackage #:ftp
-  (:use #:cl #:fset #:arrows #:usocket)
+  (:use #:cl #:fset #:arrows #:usocket #:trivia #:cl-ppcre)
+  (:shadowing-import-from :fset :alist)
+  (:shadowing-import-from :fset :@)
   (:shadowing-import-from :cl
                           :first
                           :position-if

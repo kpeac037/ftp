@@ -1,0 +1,3 @@
+Ordering sets of bytes, ✓
+Curious how te ascii transfers to bytes.
+Principle is the same for any other data type
